@@ -1,0 +1,110 @@
+@-moz-document domain("youneedabudget.com") {
+    :root {
+        --nord0: #2E3440;
+        --nord1: #3B4252;
+        --nord2: #434C5E;
+        --nord3: #4C566A;
+    
+        --nord4: #D8DEE9;
+        --nord5: #E5E9F0;
+        --nord6: #ECEFF4;
+    
+        --nord7: #8FBCBB;
+        --nord8: #88C0D0;
+        --nord9: #81A1C1;
+        --nord10: #5E81AC;
+    
+        --nord11: #BF616A;
+        --nord12: #D08770;
+        --nord13: #EBCB8B;
+        --nord14: #A3BE8C;
+        --nord15: #B48EAD;
+    
+        --red: var(--nord11);
+        --orange: var(--nord12);
+        --yellow: var(--nord13);
+        --green: var(--nord14);
+        --purple: var(--nord15);
+    }
+    
+    .toolkit-days-of-buffering .budget-header-days-age {
+        color: var(--nord8);
+    }
+    
+    body.theme-dark,
+    body.theme-classic {
+        --tk-color-goal-warning-underfunded: var(--yellow);
+    
+        --tk-current-month-control-color: var(--nord7);
+        --tk-current-month-header-color: var(--nord7);
+        --tk-current-month-note-color: var(--nord7);
+        --tk-current-month-background-color: var(--nord0);
+    
+        --tk-emphasize-inflow-color: var(--green);
+        --tk-emphasize-inflow-color-selected: var(--green);
+    
+        --tk-expense-rep-hl-color: var(--nord5);
+        --tk-expense-rep-hl-pos: var(--green);
+        --tk-expense-rep-hl-neg: var(--nord4);
+    }
+    
+    body.theme-dark {
+        --tk-striped-budget-row-color: var(--nord1);
+        --tk-striped-transaction-row-color: var(--nord1);
+    }
+    
+    body.theme-dark {
+        --register_flag_primary_background: var(--red);
+        --register_flag_quarternary_background: var(--green);
+        --register_flag_quinary_background: var(--blue);
+        --register_flag_secondary_background: var(--orange);
+        --register_flag_senary_background: var(--purple);
+        --register_flag_tertiary_background: var(--yellow);
+    }
+    
+    body.theme-dark {
+        --action_primary: var(--nord8);
+    
+        --background_primary: var(--nord0);
+    
+        --banner_negative_button_background: var(--red);
+        --banner_negative_button_background_active: var(--red);
+        --banner_negative_button_label: var(--nord0);
+        --banner_positive_button_background: var(--green);
+        --banner_positive_button_background_active: var(--green);
+        --banner_positive_button_label: var(--nord0);
+    
+        --budget_balance_negative_background_active: var(--red);
+        --budget_balance_negative_background: var(--red);
+        --budget_balance_negative_text: var(--nord4);
+        --budget_balance_positive_background: var(--nord1);
+        --budget_balance_positive_text: var(--green);
+        --budget_balance_warning_background: var(--orange);
+        --budget_balance_zero_background: var(--nord7);
+        --budget_balance_zero_text: var(--nord2);
+    
+        --budget_bar_funded: var(--green);
+        --budget_bar_overspending: var(--red);
+        --budget_bar_underfunded: var(--yellow);
+    
+        --header_background: var(--nord0);
+        --header_divider: var(--nord3);
+        --header_label_negative: var(--red);
+        --header_label_positive: var(--green);
+    
+        --label_dark_background: var(--nord8);
+        --label_heading: var(--nord8);
+        --label_primary: var(--nord4);
+        --label_negative: var(--red);
+    
+        --table_row_background: var(--nord0);
+    
+        --message_negative_accent: var(--red);
+        --message_negative_background: var(--red);
+        --message_negative_label: var(--nord6);
+    
+        --sidebar_background: var(--nord0);
+        --sidebar_button_background_selected: var(--nord10);
+        --sidebar_label_primary: var(--nord6);
+    }
+    }
