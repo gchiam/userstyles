@@ -33,6 +33,16 @@
     background-color: var(--nord10);
   }
   
+  body.theme-dark .sidebar-contents::-webkit-scrollbar,
+  body.theme-dark .budget-table-container::-webkit-scrollbar {
+    background-color: var(--nord1);
+  }
+  body.theme-dark .sidebar-contents::-webkit-scrollbar-thumb,
+  body.theme-dark .budget-table-container::-webkit-scrollbar-thumb {
+    background-color: var(--nord3);
+    border: 0;
+  }
+  
   body.theme-dark,
   body.theme-classic {
     --tk-color-goal-warning-underfunded: var(--yellow);
@@ -113,5 +123,6 @@
   
     --sidebar_background: var(--nord0);
     --sidebar_button_background_selected: var(--nord10);
-    --sidebar_label_primary: var(--nord6);
+    --sidebar_label_primary: var(--nord4);
   }
+  
